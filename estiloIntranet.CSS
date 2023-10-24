@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo para el cuerpo del portal */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #0074e4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menú de navegación */
+nav {
+  background-color: #003b81;
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Contenedor principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilo para los títulos de secciones */
+h1, h2, h3 {
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Estilo para los enlaces */
+a {
+  color: #0074e4;
+  text-decoration: underline;
+}
+
+/* Estilo para los botones */
+button, .button {
+  background-color: #0074e4;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Estilo para las tablas */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+/* Pie de página */
+footer {
+  background-color: #003b81;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilo para formularios */
+form {
+  margin: 20px 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], input[type="password"], select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Clase para resaltar errores */
+.error {
+  color: #ff0000;
+}
+
+/* Clase para resaltar éxito */
+.success {
+  color: #00cc00;
+}
